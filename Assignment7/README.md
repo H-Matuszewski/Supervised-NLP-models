@@ -17,7 +17,9 @@ In brief, the notebook in this folder does the following:<br>
 * Computes Accuracy, Precision, Recall, and Macro-F1 score.
 
 ## More in-depth information & resources.
-
+<Br>
+As this is an ipynb file, using a notebook such as Jupyter Notebook is required. Running this on Google Colab should also be fine insofar as the csv is accessible.<Br>
+<br>
 **Requirements** - Those are taken care of by running the !pip install commands (transformers, sentencepiece, and pip upgrade). The other libraries which are needed are SciPy and NumPy (a reasonably up to date version). There haven't been any errors observed yet with installing, so let me know if you come across any.<br>
 If an external download is necessary, then one tip is to run through Anaconda instead of Miniconda as Miniconda may not have these libraries in its package.<br>
 <br>
