@@ -18,6 +18,7 @@ In brief, the notebook in this folder does the following:<br>
 
 ## More in-depth information & resources.
 
+**Requirements** - Those are taken care of by running the !pip install commands (transformers, sentencepiece, and pip upgrade). The other libraries which are needed are SciPy and NumPy (a reasonably up to date version). 
 The CSV for running this particular experiment has two columns, "review" and "sentiment". Review is the actual text to review, whereas sentiment is the score given by a human (by people manually reading these and manually assigning a score to them).<br>
 The data behind this CSV comes from CrowdTangle, a Facebook API which circumvents having to scrape Facebook manually.<br>
 The model used for evaluation is twitter-xlm-roberta-base-sentiment, an NLP trained on 198 million tweets. Here's more info about it: https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment?text=I+love+you%21<br>
