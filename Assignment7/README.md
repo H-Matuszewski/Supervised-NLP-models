@@ -30,5 +30,6 @@ The evaluation is split into 3: negative, neutral and positive, where negative i
 The code has comments around it explaining which bits do what, and have further resources allocated to them.<br>
 
 ## What's the point of this?
+As the results show, there is a large amount of negative sentiment, and that the NPL model has an accuracy of between 60-70%.<br>
 Since this is CrowdTangle data, we know that this is data that is still up on Facebook, content deleted for violating Facebook's Terms of Use do not appear in CrowdTangle. As such, there should be no (or very little) negative sentiment. However, it has been noted that Facebook has done a poor job of moderating hateful communities in India which speak predominantly in Hindi. This is the motivation behind the whole folder (not just this assignment).<br>
 By running predictions we can do two things: We can show that models are able to detech this negative sentiment (and by extension, so should Facebook), and we can also evaluate how well different models are able to do these predictions, and perhaps improve upon them.
